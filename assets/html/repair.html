@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repair Password</title>
+    <link rel="stylesheet" href="../style/repair.css">
+    <link rel="shortcut icon" href="../images/SiteLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="all">
+        <h1>Parolni tiklash</h1>
+        <form id="require">
+            <input id="input" type="text" placeholder="Pochta yoki telefon nomer" required>
+        </form>
+        <div class="all_center">
+            <button class="active">Jo'natish</button>
+            <button>olingan kod</button>
+        </div>
+        <button class="done" onclick="goToNext()">Davom etish</button>
+    </div>
+    <div id="invent" class="hidden">
+        <h1>Parolni tiklash</h1>
+        <div class="invent_i">
+            <form id="require">
+                <input id="input" type="text" placeholder="Parol o'ylab toping" required>
+            </form>
+            <form id="require">
+                <input id="input" type="text" placeholder="Parolni tasdiqlang" required>
+            </form>
+            <button class="doned" onclick="showMessage()">Tayyor!</button>
+        </div>
+    </div>
+    <a href="../html/login.html" class="exit">
+        <i class="ri-close-large-fill"></i>
+    </a>
+
+    <div class="load">
+        <div class="dot-spinner">
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+        </div>
+        <h3>Yuklanmoqda...</h3>
+    </div>
+
+    <script src="../js/repair.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPLOREX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/img/favicon-Photoroom.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="asosiy" data-aos="fade-down" data-aos-duration="1100">
+        <div class="container">
+            <nav class="navbar">
+                <button class="menu-btn"><i class="ri-menu-2-line"></i></button>
+                <a href="#" class="logo" draggable="false">
+                    EXPLOREX
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#asosiy" draggable="false">Asosiy</a></li>
+                    <li><a href="#" draggable="false">Biz haqimizda</a></li>
+                    <li><a href="#mashhur" draggable="false">Mashhur manzillar</a></li>
+                    <li><a href="#takliflar" draggable="false">Takliflar</a></li>
+                    <li><a href="#" draggable="false">Yordam</a></li>
+                </ul>
+                <a href="../html/login.html" class="sign-in" draggable="false">Kirish</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SEARCH PANEL -->
+    <main>
+        <section class="home-section">
+            <div class="container">
+                <video autoplay loop muted>
+                    <source src="./assets/video/travelVideo.mp4" type="video/mp4">
+                </video>
+                <div class="home-inside">
+
+                    <div class="hero-content" data-aos="zoom-in" data-aos-duration="1000">
+                        <h1>Hayotingizdagi eng yaxshi sayohatlarni biz bilan rejalashtiring.</h1>
+                        <p>Eng ajoyib sayohatlarni tanlashni osonlashtiramiz! Sayohatlaringiz eng mashhur joylarda,
+                            qulay sharoitlar bilan va yuqori darajadagi xizmatlar bilan sizni kutmoqda. Orzuingizdagi
+                            sayohatni rejalashtiring!</p>
+                    </div>
+                    <form class="search-panel" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="search-option">
+                            <label><i class="ri-map-pin-line"></i> Manzil</label>
+                            <input required class="input" type="text" placeholder="Manzilni qidiring">
+                        </div>
+                        <div class="divider"></div>
+                        <div class="search-option">
+                            <label><i class="ri-group-line"></i> Mehmonlar</label>
+                            <select required class="input">
+                                <option value="">Nechta mehmon?</option>
+                                <option value="1">1 ta mehmon</option>
+                                <option value="2">2 ta mehmon</option>
+                                <option value="3">3 ta mehmon</option>
+                                <option value="4">4 ta mehmon</option>
+                            </select>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="search-option">
+                            <label><i class="ri-calendar-line"></i> Sana</label>
+                            <input required class="input" type="date" lang="en-US" placeholder="Sanani tanlang">
+                        </div>
+                        <div class="divider"></div>
+                        <button type="submit" class="search-btn">Qidirish</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="mashhur" class="explore_section">
+            <div class="container">
+                <div class="explore_main">
+                    <div class="explore_top" data-aos="zoom-in" data-aos-duration="900">
+                        <h1>Mashhur Shaharlarni O'rganing</h1>
+                        <p>Mashhur shaharlarni o'rganish insonlarga yuksak madaniyat, tarixi boy joylar va unutilmas
+                            sarguzashtlar taqdim etadi</p>
+                    </div>
+                    <div class="explore_btns">
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="50" id="1"
+                            class="active">New York</button>
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="100"
+                            id="2">Kaliforniya</button>
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="150"
+                            id="3">Alyaska</button>
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200"
+                            id="4">Sidney</button>
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="250"
+                            id="5">Dubay</button>
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="300"
+                            id="6">London</button>
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="350"
+                            id="7">Tokyo</button>
+                        <button data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="400"
+                            id="8">Dehli</button>
+                    </div>
+                    <div class="explore_img" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="450">
+                        <img src="./assets/img/NewYork.jpg" alt="NewYorkRasmi">
+                    </div>
+                    <div class="explore_content" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">
+                        <div class="content_left">
+                            <h1>New-York</h1>
+                            <p>New York – dunyoning eng katta va eng rang-barang shahri, iqtisodiy va madaniy markaz,
+                                baland binolar, Broadway, san'at, moda, va ko'plab sayyohlik joylari bilan mashhur</p>
+                        </div>
+                        <div class="content_right">
+                            <span>
+                                <svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.9001 14.4H4.1001V15.2C4.1001 15.4122 4.01581 15.6157 3.86578 15.7657C3.71575 15.9157 3.51227 16 3.3001 16H2.5001C2.28792 16 2.08444 15.9157 1.93441 15.7657C1.78438 15.6157 1.7001 15.4122 1.7001 15.2V14.4C1.27575 14.4 0.868785 14.2314 0.568727 13.9314C0.268669 13.6313 0.100098 13.2243 0.100098 12.8V1.6C0.100098 0.72 0.820098 0 1.7001 0H11.3001C11.7244 0 12.1314 0.168571 12.4315 0.468629C12.7315 0.768687 12.9001 1.17565 12.9001 1.6V12.8C12.9001 13.2243 12.7315 13.6313 12.4315 13.9314C12.1314 14.2314 11.7244 14.4 11.3001 14.4V15.2C11.3001 15.4122 11.2158 15.6157 11.0658 15.7657C10.9158 15.9157 10.7123 16 10.5001 16H9.7001C9.48792 16 9.28444 15.9157 9.13441 15.7657C8.98438 15.6157 8.9001 15.4122 8.9001 15.2V14.4ZM1.7001 4V8.8H5.7001V4H1.7001ZM7.3001 4V8.8H11.3001V4H7.3001ZM2.5001 1.6V2.4H10.5001V1.6H2.5001ZM2.9001 12.8C3.21836 12.8 3.52358 12.6736 3.74863 12.4485C3.97367 12.2235 4.1001 11.9183 4.1001 11.6C4.1001 11.2817 3.97367 10.9765 3.74863 10.7515C3.52358 10.5264 3.21836 10.4 2.9001 10.4C2.58184 10.4 2.27661 10.5264 2.05157 10.7515C1.82653 10.9765 1.7001 11.2817 1.7001 11.6C1.7001 11.9183 1.82653 12.2235 2.05157 12.4485C2.27661 12.6736 2.58184 12.8 2.9001 12.8ZM10.1001 12.8C10.4184 12.8 10.7236 12.6736 10.9486 12.4485C11.1737 12.2235 11.3001 11.9183 11.3001 11.6C11.3001 11.2817 11.1737 10.9765 10.9486 10.7515C10.7236 10.5264 10.4184 10.4 10.1001 10.4C9.78184 10.4 9.47661 10.5264 9.25157 10.7515C9.02653 10.9765 8.9001 11.2817 8.9001 11.6C8.9001 11.9183 9.02653 12.2235 9.25157 12.4485C9.47661 12.6736 9.78184 12.8 10.1001 12.8Z"
+                                        fill="#D176E0" />
+                                </svg>
+
+                                Public Transportations</span>
+                            <span>
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.0832 13.0833C15.4165 12.5 15.6665 11.8333 15.6665 11.0833C15.6665 8.99999 13.9998 7.33332 11.9165 7.33332C9.83317 7.33332 8.1665 8.99999 8.1665 11.0833C8.1665 13.1667 9.83317 14.8333 11.9165 14.8333C12.6665 14.8333 13.3332 14.5833 13.9165 14.25L16.5832 16.9167L17.7498 15.75L15.0832 13.0833ZM11.9165 13.1667C10.7498 13.1667 9.83317 12.25 9.83317 11.0833C9.83317 9.91666 10.7498 8.99999 11.9165 8.99999C13.0832 8.99999 13.9998 9.91666 13.9998 11.0833C13.9998 12.25 13.0832 13.1667 11.9165 13.1667ZM8.99984 15.6667V17.3333C4.39984 17.3333 0.666504 13.6 0.666504 8.99999C0.666504 4.39999 4.39984 0.666656 8.99984 0.666656C13.0332 0.666656 16.3915 3.53332 17.1665 7.33332H15.4415C15.1816 6.32652 14.6898 5.39447 14.0054 4.61167C13.321 3.82886 12.4629 3.217 11.4998 2.82499V3.16666C11.4998 4.08332 10.7498 4.83332 9.83317 4.83332H8.1665V6.49999C8.1665 6.95832 7.7915 7.33332 7.33317 7.33332H5.6665V8.99999H7.33317V11.5H6.49984L2.50817 7.50832C2.39984 7.99166 2.33317 8.48332 2.33317 8.99999C2.33317 12.675 5.32484 15.6667 8.99984 15.6667Z"
+                                        fill="#7BBCB0" />
+                                </svg>
+
+                                Nature & Adventure</span>
+                            <span>
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 2H14L18 9H19C19.2652 9 19.5196 9.10536 19.7071 9.29289C19.8946 9.48043 20 9.73478 20 10C20 10.2652 19.8946 10.5196 19.7071 10.7071C19.5196 10.8946 19.2652 11 19 11H18V17C18 17.2652 17.8946 17.5196 17.7071 17.7071C17.5196 17.8946 17.2652 18 17 18H16C15.7348 18 15.4804 17.8946 15.2929 17.7071C15.1054 17.5196 15 17.2652 15 17V16H5V17C5 17.2652 4.89464 17.5196 4.70711 17.7071C4.51957 17.8946 4.26522 18 4 18H3C2.73478 18 2.48043 17.8946 2.29289 17.7071C2.10536 17.5196 2 17.2652 2 17V11H1C0.734784 11 0.48043 10.8946 0.292893 10.7071C0.105357 10.5196 0 10.2652 0 10C0 9.73478 0.105357 9.48043 0.292893 9.29289C0.48043 9.10536 0.734784 9 1 9H2L6 2H8V0H12V2ZM15.86 9L13 4H7L4.14 9H15.86ZM5.5 14C5.89782 14 6.27936 13.842 6.56066 13.5607C6.84196 13.2794 7 12.8978 7 12.5C7 12.1022 6.84196 11.7206 6.56066 11.4393C6.27936 11.158 5.89782 11 5.5 11C5.10218 11 4.72064 11.158 4.43934 11.4393C4.15804 11.7206 4 12.1022 4 12.5C4 12.8978 4.15804 13.2794 4.43934 13.5607C4.72064 13.842 5.10218 14 5.5 14ZM14.5 14C14.8978 14 15.2794 13.842 15.5607 13.5607C15.842 13.2794 16 12.8978 16 12.5C16 12.1022 15.842 11.7206 15.5607 11.4393C15.2794 11.158 14.8978 11 14.5 11C14.1022 11 13.7206 11.158 13.4393 11.4393C13.158 11.7206 13 12.1022 13 12.5C13 12.8978 13.158 13.2794 13.4393 13.5607C13.7206 13.842 14.1022 14 14.5 14Z"
+                                        fill="#E4B613" />
+                                </svg>
+
+                                Private Transportations</span>
+                            <span>
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.1665 4.00001H12.6665V2.33334C12.6665 1.40834 11.9248 0.666672 10.9998 0.666672H5.99984C5.07484 0.666672 4.33317 1.40834 4.33317 2.33334V4.00001H1.83317C0.908171 4.00001 0.166504 4.74167 0.166504 5.66667V14.8333C0.166504 15.7583 0.908171 16.5 1.83317 16.5H15.1665C16.0915 16.5 16.8332 15.7583 16.8332 14.8333V5.66667C16.8332 4.74167 16.0915 4.00001 15.1665 4.00001ZM5.99984 2.33334H10.9998V4.00001H5.99984V2.33334ZM15.1665 14.8333H1.83317V13.1667H15.1665V14.8333ZM15.1665 10.6667H1.83317V5.66667H4.33317V7.33334H5.99984V5.66667H10.9998V7.33334H12.6665V5.66667H15.1665V10.6667Z"
+                                        fill="#FC3131" />
+                                </svg>
+                                Business Tours
+                            </span>
+                            <span>
+                                <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.7585 14.75C8.9585 15.5833 8.04183 16.4417 7.00016 17.3333C2.5585 13.5417 0.333496 10.2667 0.333496 7.50001C0.333496 3.35001 3.50016 0.666672 7.00016 0.666672C10.4918 0.666672 13.6585 3.34167 13.6668 7.47501L15.4085 5.73334L16.5835 6.91667L12.8335 10.6667L9.0835 6.91667L10.2585 5.74167L12.0002 7.47501C11.9918 4.45834 9.7835 2.33334 7.00016 2.33334C4.2085 2.33334 2.00016 4.47501 2.00016 7.50001C2.00016 9.45001 3.62516 12.0333 7.00016 15.1167C7.5335 14.625 8.02516 14.15 8.47516 13.6917C8.32852 13.4023 8.25148 13.0827 8.25016 12.7583C8.25016 12.2058 8.46966 11.6759 8.86036 11.2852C9.25106 10.8945 9.78096 10.675 10.3335 10.675C10.886 10.675 11.4159 10.8945 11.8066 11.2852C12.1973 11.6759 12.4168 12.2058 12.4168 12.7583C12.4165 13.0806 12.3413 13.3984 12.1969 13.6865C12.0526 13.9746 11.8432 14.2252 11.5853 14.4184C11.3274 14.6116 11.0281 14.7422 10.711 14.7997C10.394 14.8573 10.0678 14.8403 9.7585 14.75Z"
+                                        fill="#5C9BDE" />
+                                </svg>
+                                Local Visit
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="takliflar" class="explore_cards">
+                    <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="100">
+                        <div class="card_img">
+                            <img src="./assets/img/img1.png" alt="Alaska: Vestminsterdan Grenvichgacha Temza daryosi">
+                        </div>
+                        <div class="card_content">
+                            <h3>Alaska: Vestminsterdan Grenvichgacha Temza daryosi</h3>
+                            <div class="content_bottom">
+                                <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                            </div>
+                            <div class="card_end">
+                                <div class="review">
+                                    <div class="star">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <span>584 ta sharh</span>
+                                </div>
+                                <div class="fee">
+                                    <h4>469.000 UZS</h4>
+                                    <span>Har bir kishi uchun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="200">
+                        <div class="card_img">
+                            <img src="./assets/img/img2.png"
+                                alt="Alaska: Retro Ikki Qavatli Avtobusda Sayohat va Temza Daryosi">
+                        </div>
+                        <div class="card_content">
+                            <h3>Alaska: Retro Ikki Qavatli Avtobusda Sayohat va Temza Daryosi</h3>
+                            <div class="content_bottom">
+                                <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                            </div>
+                            <div class="card_end">
+                                <div class="review">
+                                    <div class="star">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <span>356 ta sharh</span>
+                                </div>
+                                <div class="fee">
+                                    <h4>759.000 UZS</h4>
+                                    <span>Har bir kishi uchun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="300">
+                        <div class="card_img">
+                            <img src="./assets/img/img3.png" alt="Alaska: Londondagi Sehrli Sayohat va Choy Marosimi">
+                        </div>
+                        <div class="card_content">
+                            <h3>Alaska: Londondagi Sehrli Sayohat va Choy Marosimi</h3>
+                            <div class="content_bottom">
+                                <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                            </div>
+                            <div class="card_end">
+                                <div class="review">
+                                    <div class="star">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <span>843 ta sharh</span>
+                                </div>
+                                <div class="fee">
+                                    <h4>939.000 UZS</h4>
+                                    <span>Har bir kishi uchun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="400">
+                        <div class="card_img">
+                            <img src="./assets/img/img1.png" alt="Alaska: Tarixiy Britaniya Sayohati va Choy Marosimi">
+                        </div>
+                        <div class="card_content">
+                            <h3>Alaska: Tarixiy Britaniya Sayohati va Choy Marosimi</h3>
+                            <div class="content_bottom">
+                                <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                            </div>
+                            <div class="card_end">
+                                <div class="review">
+                                    <div class="star">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <span>1004 ta sharh</span>
+                                </div>
+                                <div class="fee">
+                                    <h4>1009.00 UZS</h4>
+                                    <span>Har bir kishi uchun</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wild_section">
+            <div class="container">
+                <div class="wild_main">
+                    <div class="wild_left">
+                        <img src="./assets/img/wildImg.png" alt="Alyaskaning Yovvoyi Tabiyati">
+                    </div>
+                    <div class="wild_right">
+                        <span class="start">Hozirgi paytda mashhur</span>
+                        <h2>Alyaskaning Yovvoyi Tabiyati</h2>
+                        <div class="wild_location">
+                            <span class="location"><i class="ri-map-pin-line"></i>Alaska, USA</span>
+                            <div class="line"></div>
+                            <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <span>4.9</span>
+                            <span>(300 reviews)</span>
+                        </div>
+                        <p>Alyaskada yovvoyi hayot juda xilma-xildir: ayiqlar, qorli tulkilar, qorli kabirlar va dengiz
+                            jonivorlari tabiatda erkin yashaydi. Bularning barchasi o'zaro muvozanatda hayot kechiradi.
+                        </p>
+                        <div class="wild_end">
+                            <button class="book">Hozir buyurtma bering</button>
+                            <div class="line"></div>
+                            <div class="links">
+                                <button><i class="ri-heart-fill"></i></button>
+                                <button><i class="ri-share-forward-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured_section">
+            <div class="featured_main">
+                <div class="container">
+                    <div class="featured_top">
+                        <div class="top_left">
+                            <h2>Tavsiya etiladigan manzillar</h2>
+                            <p>Tavsiya etilgan manzillar sayohat qilish uchun eng yaxshi joylardir.</p>
+                        </div>
+                        <div class="top_right">
+                            <i id="prev" onclick="show_card(-1)" class="ri-arrow-left-s-line"></i>
+                            <i id="next" onclick="show_card(1)" class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </div>
+
+                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+                        slides-per-view="4">
+                        <swiper-slide>
+                            <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="100">
+                                <div class="card_img">
+                                    <img src="./assets/img/img1.png"
+                                        alt="Alaska: Vestminsterdan Grenvichgacha Temza daryosi">
+                                </div>
+                                <div class="card_content">
+                                    <h3>Alaska: Vestminsterdan Grenvichgacha Temza daryosi</h3>
+                                    <div class="content_bottom">
+                                        <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                        <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                        <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                                    </div>
+                                    <div class="card_end">
+                                        <div class="review">
+                                            <div class="star">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <span>584 ta sharh</span>
+                                        </div>
+                                        <div class="fee">
+                                            <h4>469.000 UZS</h4>
+                                            <span>Har bir kishi uchun</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="100">
+                                <div class="card_img">
+                                    <img src="./assets/img/img1.png"
+                                        alt="Alaska: Vestminsterdan Grenvichgacha Temza daryosi">
+                                </div>
+                                <div class="card_content">
+                                    <h3>Alaska: Vestminsterdan Grenvichgacha Temza daryosi</h3>
+                                    <div class="content_bottom">
+                                        <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                        <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                        <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                                    </div>
+                                    <div class="card_end">
+                                        <div class="review">
+                                            <div class="star">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <span>584 ta sharh</span>
+                                        </div>
+                                        <div class="fee">
+                                            <h4>469.000 UZS</h4>
+                                            <span>Har bir kishi uchun</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="100">
+                                <div class="card_img">
+                                    <img src="./assets/img/img1.png"
+                                        alt="Alaska: Vestminsterdan Grenvichgacha Temza daryosi">
+                                </div>
+                                <div class="card_content">
+                                    <h3>Alaska: Vestminsterdan Grenvichgacha Temza daryosi</h3>
+                                    <div class="content_bottom">
+                                        <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                        <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                        <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                                    </div>
+                                    <div class="card_end">
+                                        <div class="review">
+                                            <div class="star">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <span>584 ta sharh</span>
+                                        </div>
+                                        <div class="fee">
+                                            <h4>469.000 UZS</h4>
+                                            <span>Har bir kishi uchun</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="100">
+                                <div class="card_img">
+                                    <img src="./assets/img/img1.png"
+                                        alt="Alaska: Vestminsterdan Grenvichgacha Temza daryosi">
+                                </div>
+                                <div class="card_content">
+                                    <h3>Alaska: Vestminsterdan Grenvichgacha Temza daryosi</h3>
+                                    <div class="content_bottom">
+                                        <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                        <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                        <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                                    </div>
+                                    <div class="card_end">
+                                        <div class="review">
+                                            <div class="star">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <span>584 ta sharh</span>
+                                        </div>
+                                        <div class="fee">
+                                            <h4>469.000 UZS</h4>
+                                            <span>Har bir kishi uchun</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="card" data-aos="fade-up-left" data-aos-duration="700" data-aos-delay="100">
+                                <div class="card_img">
+                                    <img src="./assets/img/img1.png"
+                                        alt="Alaska: Vestminsterdan Grenvichgacha Temza daryosi">
+                                </div>
+                                <div class="card_content">
+                                    <h3>Alaska: Vestminsterdan Grenvichgacha Temza daryosi</h3>
+                                    <div class="content_bottom">
+                                        <span><i class="ri-timer-line"></i>2 soat davom etadi</span>
+                                        <span><i class="ri-car-fill"></i>Transport imkoniyati</span>
+                                        <span><i class="ri-group-line"></i>Oilaviy reja</span>
+                                    </div>
+                                    <div class="card_end">
+                                        <div class="review">
+                                            <div class="star">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <span>584 ta sharh</span>
+                                        </div>
+                                        <div class="fee">
+                                            <h4>469.000 UZS</h4>
+                                            <span>Har bir kishi uchun</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </swiper-slide>
+                    </swiper-container>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="load">
+        <div class="dot-spinner">
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+        </div>
+        <h3>Yuklanmoqda...</h3>
+    </div>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
